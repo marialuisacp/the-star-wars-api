@@ -4,6 +4,8 @@
   background-color: rgba(0, 71, 144, .7);
   padding: 20px;
   max-height: 280px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .header .logo img{

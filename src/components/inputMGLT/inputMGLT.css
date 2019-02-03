@@ -36,7 +36,7 @@
   color: #fff;
   font-family: 'Cutive', sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .area-form-mglt p {
@@ -50,4 +50,27 @@
 
 .area-form-mglt input[type='number'] {
   -moz-appearance: textfield;
+}
+
+@media only screen and (max-width: 1470px) {
+  .area-form-mglt {
+    width: 50%;
+  }
+
+  .box-mglt .button-mglt {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .area-form-mglt {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .area-form-mglt {
+    width: 80%;
+  }
 }

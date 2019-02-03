@@ -42,4 +42,24 @@
   background-color: rgba(44, 62, 80,.5);
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 670px) {
+  .starship {
+    max-width: 90%;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .starship .box {
+    width: 100%;
+    display: block;
+    padding: 10px;
+  }
+
+  .starship .box-image {
+    border-radius: 0;
+    background-size: 280px 280px;
+  }
 }
