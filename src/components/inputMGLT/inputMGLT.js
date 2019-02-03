@@ -7,6 +7,10 @@ class InputMGLT extends Component {
     const { handleChange, handleSubmit } = this.props;
     return (
       <div className='area-form-mglt'>
+        <p>
+          Insert the number, click in 'Calculate' or press Enter.
+          The default number is 50000.
+        </p>
         <div className='box-mglt'>
           <input className='item input-mglt' type='number' onChange={handleChange} />
           <button className='item button-mglt' onClick={handleSubmit}> Calculate </button>

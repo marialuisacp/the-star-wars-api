@@ -9,7 +9,7 @@ import Header from '../../components/header/header';
 class Home extends Component {
   constructor(props) {
     super(props);
-    this.state = { value: 5000, starships: [], loading: true };
+    this.state = { value: 50000, starships: [], loading: true };
   }
 
   componentDidMount() {

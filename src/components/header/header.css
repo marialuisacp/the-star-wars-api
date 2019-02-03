@@ -1,12 +1,15 @@
 .header {
   color: #fff;
   text-align: center;
+  background-color: rgba(0, 71, 144, .7);
+  padding: 20px;
+  max-height: 280px;
 }
 
 .header .logo img{
   display: block;
   margin: 20px auto;
-  max-height: 250px;
+  max-height: 220px;
 }
 
 .header .subtitle {
@@ -17,6 +20,7 @@
 }
 
 .header a {
-  color: #FFC29B;
+  color: #ACBAC9;
+  font-weight: bold;
   text-decoration: none;
 }
