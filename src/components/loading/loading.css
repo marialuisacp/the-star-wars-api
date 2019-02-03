@@ -1,0 +1,13 @@
+.loading {
+  display: block;
+  text-align: center;
+}
+
+.loading .loading-img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+}

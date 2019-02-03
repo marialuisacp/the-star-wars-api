@@ -1,0 +1,38 @@
+.area-form-mglt {
+  text-align: center;
+  margin: 0 auto;
+  width: 40%;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.box-mglt {
+  display: inline-flex;
+  width: 100%;
+  padding: 0;
+  min-height: 80px;
+  text-align: center;
+}
+
+.box-mglt .item {
+  border: none;
+  outline: none;
+  padding: 20px;
+}
+
+.box-mglt .input-mglt {
+  background-color: #fff;
+  border-bottom: 5px solid #6C7A89;
+  width: 70%;
+}
+
+.box-mglt .button-mglt {
+  background-color: #007B70;
+  border-bottom: 5px solid #106B60;
+  width: 30%;
+  cursor: pointer;
+  color: #fff;
+  font-family: 'Cutive', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}

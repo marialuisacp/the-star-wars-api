@@ -1,0 +1,10 @@
+.home-screen {
+  max-width: 1800px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.all-page {
+  height: 100%;
+}

@@ -18,7 +18,7 @@ class StarshipsList extends Component {
     const { starships: getStarships } = this.props;
     const starships = getStarships();
     return (
-      <div className="App">
+      <div className='starship-list'>
         {starships && starships.length > 0
           && starships.map((starship) => {
             return <StarshipCard key={starship.name} data={starship}></StarshipCard>

@@ -3,15 +3,14 @@ import PropTypes from 'prop-types';
 import './inputMGLT.css';
 
 class InputMGLT extends Component {
-
   render() {
     const { handleChange, handleSubmit } = this.props;
     return (
-      <div>
-        <label>
-          <input id='mglt' type="number" onChange={handleChange} />
-        </label>
-        <button onClick={handleSubmit}> testy </button>
+      <div className='area-form-mglt'>
+        <div className='box-mglt'>
+          <input className='item input-mglt' type='number' onChange={handleChange} />
+          <button className='item button-mglt' onClick={handleSubmit}> Calculate </button>
+        </div>
       </div>
     );
   }

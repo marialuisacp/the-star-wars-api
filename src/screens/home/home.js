@@ -4,6 +4,7 @@ import StarshipsList from '../../components/starship/list/starshipsList';
 import InputMGLT from '../../components/inputMGLT/inputMGLT';
 import Loading from '../../components/loading/loading';
 import StarshipsAPI from '../../api/StarshipsAPI';
+import Header from '../../components/header/header';
 
 class Home extends Component {
   constructor(props) {
@@ -61,16 +62,19 @@ class Home extends Component {
     const { value, loading } = this.state;
     const { handleChange, handleSubmit, getStarships } = this;
     return (
-      <div className="Home">
-        <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Cutive|Ultra" rel="stylesheet"></link>
+      <div className='home-screen'>
 
-        <InputMGLT
-          handleChange={handleChange.bind(this)}
-          handleSubmit={handleSubmit.bind(this)}></InputMGLT>
+        <Header></Header>
+        <link href='https://fonts.googleapis.com/css?family=Bree+Serif|Cutive|Ultra' rel='stylesheet'></link>
 
         {loading
           ? <Loading></Loading>
-          : <StarshipsList mglt={value} starships={getStarships.bind(this)}></StarshipsList>}
+          : <div>
+            <InputMGLT
+              handleChange={handleChange.bind(this)}
+              handleSubmit={handleSubmit.bind(this)}></InputMGLT>
+            <StarshipsList mglt={value} starships={getStarships.bind(this)}></StarshipsList>
+          </div>}
 
       </div>
     );

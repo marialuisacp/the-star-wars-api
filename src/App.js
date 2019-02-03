@@ -4,7 +4,9 @@ import Home from './screens/home/home';
 class App extends Component {
   render() {
     return (
-      <Home> </Home>
+      <div className='all-page' style={{ backgroundImage: `url(/images/space.png` }}>
+        <Home> </Home>
+      </div>
     );
   }
 }

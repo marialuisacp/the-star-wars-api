@@ -1,5 +1,5 @@
 .starship {
-  display: block;
+  display: inline-flex;
   text-align: left;
   padding: 20px;
 }
@@ -7,8 +7,37 @@
 .starship .title {
   font-family: 'Cutive', sans-serif;
   font-weight: bold;
+  font-size: 20px;
+}
+
+.starship .stops {
+  font-weight: bold;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+  margin-right: 40px;
+  padding: 10px;
 }
 
 .starship .property {
   display: block;
+}
+
+.starship .box {
+  display: inline-block;
+  height: 200px;
+}
+
+.starship .box-text {
+  width: 400px;
+  color: #fff;
+  background: rgba(1,1,1,.5);
+  padding-left: 24px;
+}
+
+.starship .box-image {
+  width: 200px;
+  border-radius: 0%;
+  background-size: 100% 100%;
+  background-position: center;
+  background-color: rgba(255,255,255,.2);
 }

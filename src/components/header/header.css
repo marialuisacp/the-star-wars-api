@@ -1,0 +1,22 @@
+.header {
+  color: #fff;
+  text-align: center;
+}
+
+.header .logo img{
+  display: block;
+  margin: 20px auto;
+  max-height: 250px;
+}
+
+.header .subtitle {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  top: -80px;
+}
+
+.header a {
+  color: #FFC29B;
+  text-decoration: none;
+}
