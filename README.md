@@ -2,7 +2,7 @@
 
 This project I developed a interface to calculated pitstops of starships. This project use the [SWAPI -The Star Wars API](https://swapi.co/). This web page is deployed on firebase in: [https://the-stars-wars-api.firebaseapp.com/](https://the-stars-wars-api.firebaseapp.com/)
 
-![alt text](http://github.com/marialuisacp/the-star-wars-api/blob/master/webapp.png)
+![Image web app](https://github.com/marialuisacp/the-star-wars-api/blob/master/webapp.png)
 
 ## Technologies
 
