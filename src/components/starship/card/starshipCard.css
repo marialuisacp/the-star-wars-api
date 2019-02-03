@@ -1,0 +1,14 @@
+.starship {
+  display: block;
+  text-align: left;
+  padding: 20px;
+}
+
+.starship .title {
+  font-family: 'Cutive', sans-serif;
+  font-weight: bold;
+}
+
+.starship .property {
+  display: block;
+}
