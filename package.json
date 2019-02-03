@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "d3-axis": "^1.0.12",
+    "d3-scale": "^2.2.2",
+    "d3-selection": "^1.4.0",
     "react": "^16.7.0",
+    "react-d3-axis": "^0.1.1",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
     "react-scripts": "2.1.3"
